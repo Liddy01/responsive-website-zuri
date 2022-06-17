@@ -98,10 +98,6 @@
             let lnameElement = document.getElementById("lname");
             let emailElement = document.getElementById("email");
             let passwordElement = document.getElementById("password");
-            document.getElementsByClassName("fname")[0].placeholder=""
-            document.getElementsByClassName("lname")[0].placeholder=""
-            document.getElementsByClassName("email")[0].placeholder="email@example/com"
-            document.getElementsByClassName("password")[0].placeholder=""
 
 
            
@@ -116,13 +112,6 @@
 
           
 
-            else{
-                fnameElement.classList.remove('invalid')
-                form.classList.remove('invalid')
-                text.innerHTML="good"
-                text.style.color="green"
-
-            }
 
          
 
@@ -132,14 +121,7 @@
                 text1.style.color="red"
             }
 
-            
-            else{
-                lnameElement.classList.remove('invalid')
-                form.classList.remove('invalid')
-                text1.innerHTML="good"
-                text1.style.color="green"
-
-            }
+  
 
             if(email==""){
                 emailElement.classList.add('invalid')
@@ -148,13 +130,8 @@
             }
 
             
-            else{
-                emailElement.classList.remove('invalid')
-                form.classList.remove('invalid')
-                text2.innerHTML="good"
-                text2.style.color="green"
-
-            }
+   
+      
 
             if(password==""){
                 passwordElement.classList.add('invalid')
@@ -163,13 +140,7 @@
             }
 
             
-            else{
-                passwordElement.classList.remove('invalid')
-                form.classList.remove('invalid')
-                text3.innerHTML="good"
-                text3.style.color="green"
 
-            }
 
 
            
