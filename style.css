@@ -51,11 +51,7 @@ input[type="submit"]{
     border: 2px solid green;
 }
 
-input[type="submit"]:hover{
 
-    opacity: 0.6;
-    cursor: pointer;
-}
 
 
 .head{
@@ -86,83 +82,6 @@ a{
 
 }
 
-#form .box{
-    position: relative;
-}
-
-#form .box1{
-    position: relative;
-}
-
-#form .box2{
-    position: relative;
-}
-
-#form .box3{
-    position: relative;
-}
-
-#form .box4{
-    position: relative;
-}
-
-#form.invalid .box::before{
-    content: "";
-    position: absolute;
-    background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
-    right: 20px;
-    top: 10px;
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    z-index: 1000;
-
-}
-
-#form.invalid .box1::before{
-    content: "";
-    position: absolute;
-    background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
-    right: 20px;
-    top: 45px;
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    z-index: 1000;
-
-}
-
-
-
-#form.invalid .box2::before{
-    content: "";
-    position: absolute;
-    background: url('https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg');
-    right: 20px;
-    top: 45px;
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    z-index: 1000;
-
-}
-
-#form.invalid .box3::before{
-    content: "";
-    position: absolute;
-    background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
-    right: 20px;
-    top: 45px;
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    z-index: 1000;
-
-}
-
-input.invalid::placeholder{
-    color: red;
-}
 
 
 input.invalid{
