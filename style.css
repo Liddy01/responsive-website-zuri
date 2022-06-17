@@ -8,7 +8,7 @@ body{
     
 }
 
-.section1{
+.heading{
     color: white;
     width: 50%;
     padding-top: 8em;
@@ -16,7 +16,7 @@ body{
 
 }
 
-.section2{
+.mainbody{
     width: 50%;
     margin-right: 20em;
     padding-top: 1em;
@@ -54,7 +54,7 @@ input[type="submit"]{
 
 
 
-.head{
+.try{
     color: white;
     background-color:hsl(248, 32%, 49%);
     padding: 1em;
@@ -72,7 +72,7 @@ a{
 
 
 
-#text,#text1,#text2,#text3{
+#none,#one,#two,#three{
     float: right;
     font-size: 10px;
     padding: 0 0;
@@ -101,14 +101,14 @@ input.invalid{
         width: 375px;
     }
 
-    .section1{
+    .heading{
         width: 80%;
         padding-top: 1em;
         margin:0em 1em;
     
     }
     
-    .section2{
+    .mainbody{
         width: 80%;
         padding-top: 1em;
         margin:0em 1em;
